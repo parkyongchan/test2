@@ -29,3 +29,53 @@
   background-color: gray;
   float: left;
 }
+
+.main-background {
+  width: 100%;
+  height: 1000px;
+  background-image: url(/image/sol.png);
+  background-size: ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 1px;
+  /* filter: brightness(70%)  */
+}
+
+.main-tilte {
+  color: rgb(165, 7, 7);
+  font-size: 40px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.main-content {
+  color: rgb(33, 10, 243);
+  margin-top: 460px;
+  text-align: center;
+  /* margin: auto; */
+  /* margin: auto; */
+}
+
+.main-button {
+  padding: 15px;
+  font-size: 20px;
+  background-color: rgb(8, 230, 156);
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  z-index: 5;
+}
+.explain-box {
+  width: 700px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #eee;
+  position: relative;
+  top: -180px;
+  z-index: 1;
+}
